@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Gulzar', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Tapestry', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-image: linear-gradient(#3c3939dd, #242323fb);
+}
+
+.menu {
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+    font-weight: 500;
+}
+
+.menu:hover {
+    font-size: 20px;
+    background-color: #ea7e69;
+    color: black;
+    font-weight: 300;
+}
+
+.intro {
+    font-size: 40px;
+    text-align: center;
+    background-image: url(donate-today/images/web-bg.jpg);
+    color: rgb(243, 244, 233);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.button {
+    color: beige;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(30deg, #FF5959, sandybrown);
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: ;
+}
+
+#clear-text {
+    align-items: center;
+    padding: 10%;
+    color: aliceblue;
+    background-color: rgba(32, 33, 28, 0.292);
+}
+
+.donation {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.donation-amount {
+    text-align: center;
+    margin: 50px 10%;
+}
+
+.section-heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.motivation {
+    padding: 0 10%;
+    margin-bottom: 30px;
+}
+
+.amount {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 35px 30px;
+    height: auto;
+    width: auto;
+    background-color: #eaecde6e;
+    /* box-shadow: 1px 1px 20px rgba(104, 103, 101, 0.532); */
+}
+
+#selected {
+    border: 1px solid sandybrown;
+    color: sandybrown;
+}
+
+.input-fild input {
+    width: 50%;
+    padding: 12px 0px;
+    margin: 30px 0;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.plan {
+    text-align: center;
+    margin: 10px 20px;
+    font-size: xx-larger;
+}
+
+.card img {
+    width: 60px;
+    padding: 10%;
+}
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.purposes {
+    height: 300px;
+    width: 330px;
+    padding: 15px;
+    margin: 1px;
+    border-radius: 3px;
+    transition-duration: 1s;
+}
+
+.anchor {
+    text-decoration: none;
+    color: rgb(120, 112, 112);
+}
+
+#food-card {
+    background-color: rgba(244, 165, 96, 0.792);
+}
+
+#home-card {
+    background-color: rgba(244, 165, 96, 0.637);
+}
+
+#pet-card {
+    background-color: rgba(244, 165, 96, 0.331);
+}
+
+.updates {
+    text-align: center;
+    margin: 10% 15%;
+    line-height: 30px;
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contribution {
+    height: auto;
+    width: auto;
+    border: 1px solid rgba(96, 83, 81, 0.495);
+    border-radius: 10px;
+    text-align: center;
+    padding: 3%;
+    margin-left: 1%;
+    line-height: 40px;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+    color: rgba(215, 131, 35, 0.708);
+    transition-duration: 2s;
+}
+
+.contribution:hover {
+    border: 1px solid greenyellow;
+    margin-top: -50px;
+}
+
+.contribution img {
+    width: 40%;
+}
+
+.black {
+    color: black;
+}
+
+.from {
+    margin-top: 20px;
+    padding: 50px 0px;
+    background-color: blanchedalmond;
+}
+
+#mail-btn {
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: #ea7e69;
+    margin-left: -6px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#box {
+    padding: 8px 10px;
+}
+
+.ending {
+    text-align: center;
+    padding: 50px;
+    color: whitesmoke;
+    background-color: #2c2a2ad8;
+    font-family: font-family: 'DM Serif Display', serif;
+    font-family: 'Gulzar', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Tapestry', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    ;
+}
+
+.orange {
+    color: #ea7e69;
+}
